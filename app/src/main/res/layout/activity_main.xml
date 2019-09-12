@@ -12,12 +12,12 @@
 
         <TextView
             android:background="@android:color/holo_blue_light"
-            android:text="Ðang nh?p h? thóng"
+            android:text="Đăng nhập hệ thống"
             android:gravity="center"
             android:textSize="30sp" />
         <TableRow>
             <TextView
-                android:text="Tài kho?n: "
+                android:text="Tài khoản: "
                 android:textSize="30sp"/>
             <EditText
                 android:id="@+id/User"
@@ -26,7 +26,7 @@
         <TableRow>
             <TextView
                 android:textSize="30sp"
-                android:text="Tài kho?n: "/>
+                android:text="Tài khoản: "/>
             <EditText
                 android:id="@+id/Password"
                 android:textSize="30sp"/>
@@ -38,10 +38,16 @@
                 android:text="Luu thông tin"
                 android:textSize="25sp"/>
         </TableRow>
-        <Button
-            android:id="@+id/Commit"
-            android:text="Ðang nh?p"
-            android:textSize="30sp"/>
+        <TableRow>
+            <Button
+                android:id="@+id/Commit"
+                android:text="đăng nhập"
+                android:textSize="30sp"/>
+            <Button
+                android:id="@+id/Exit"
+                android:text="thoát"
+                android:textSize="30sp"/>
+        </TableRow>
 
     </TableLayout>
 
